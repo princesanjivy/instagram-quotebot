@@ -1,7 +1,7 @@
 from instapy_cli import client
 
-username = 'quotes.princebot'
-password = 'QUOTE.bot'
+username = 'YOUR USERNAME'
+password = 'YOUR PASSWORD'
 cookie_file = 'COOKIE.json' # default: `USERNAME_ig.json`
 
 with client(username, password, cookie_file=cookie_file, write_cookie_file=True) as cli:
