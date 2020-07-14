@@ -37,7 +37,8 @@ def toImage(quoteText, quoteAuthor):
 
 def getQuote():
 
-	url = 'mongodb+srv://princesanijvy:QWErty@quotebot-lrswm.gcp.mongodb.net/test?retryWrites=true&w=majority'
+# 	url = '*8*****8*'
+# database url to get the quotes (from mongo cloud storage)
 	client = pymongo.MongoClient(url)
 
 	db = client["quotes"]
